@@ -88,3 +88,28 @@ main {
   height: 500px;
   margin: 40px;
 }
+
+/*FOOTER*/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 70px 0;
+}
+
+footer a,
+footer p {
+  color: black;
+  font-weight: 300;
+  font-size: 14px;
+}
+.footer-links {
+  display: flex;
+  gap: 30px;
+}
+
+footer span {
+  font-weight: 800;
+}

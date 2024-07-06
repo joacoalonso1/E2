@@ -33,6 +33,9 @@ ul a {
 /*SECTION 1*/
 main {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: white;
   background: rgb(35, 34, 34);
   margin: 0 50px;
@@ -91,34 +94,26 @@ main {
 
 /*SECTION PRODUCTOS*/
 #productos {
-  max-width: 1200px;
-  padding: 70px 0;
+  padding: 20px 0;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
   gap: 70px;
 }
-#productos h2 {
-  font-size: 32px;
-  font-weight: 800;
+.container-productos {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-.conatainer-productos {
-  display: flex;
-  gap: 20px;
-}
 .info-productos {
-  background: rgb(35, 34, 34);
-  padding: 40px 30px;
+  background: rgb(60, 60, 60);
+  padding: 10px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
   text-align: center;
-  gap: 20px;
+  justify-content: center;
+  gap: 15px;
   border-radius: 20px;
-  max-width: 300px;
 }
 
 .info-productos img {
@@ -126,21 +121,18 @@ main {
 }
 
 .info-productos h3 {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 400;
 }
 /*SECTION CONTACTO*/
 #contacto {
-  max-width: 1200px;
-  padding: 70px 0;
+  padding: 20px 0;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
   gap: 70px;
 }
 #contacto h2 {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 800;
 }
 
@@ -149,16 +141,14 @@ main {
   gap: 20px;
 }
 .info-contacto {
-  background: rgb(35, 34, 34);
-  padding: 40px 30px;
+  background: rgb(60, 60, 60);
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   text-align: center;
-  gap: 20px;
+  justify-content: center;
+  gap: 15px;
   border-radius: 20px;
-  max-width: 300px;
 }
 
 .info-contacto h3 {

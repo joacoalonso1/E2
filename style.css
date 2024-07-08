@@ -138,13 +138,12 @@ main {
 
 .conatainer-contacto {
   display: flex;
+  justify-content: space-between;
   gap: 20px;
 }
 .info-contacto {
-  background: rgb(60, 60, 60);
   padding: 10px;
-  display: flex;
-  flex-direction: column;
+  flex-direction: center;
   text-align: center;
   justify-content: center;
   gap: 15px;
@@ -152,8 +151,8 @@ main {
 }
 
 .info-contacto h3 {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 10px;
+  font-weight: 300;
 }
 
 /*FOOTER*/

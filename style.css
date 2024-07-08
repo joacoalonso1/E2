@@ -102,7 +102,7 @@ main {
 .container-productos {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 50px;
 }
 
 .info-productos {
@@ -134,13 +134,15 @@ main {
 
 .contact-us h2 {
   margin-bottom: 20px;
+  text-align: start;
+  font-size: 30px;
 }
 
 .contact-container {
   display: flex;
   justify-content: space-around;
   margin-bottom: 20px;
-  gap: 30px;
+  gap: 50px;
 }
 
 .contact {
@@ -157,7 +159,7 @@ main {
 }
 
 .contacto-img img {
-  height: 500px;
+  height: 300px;
   margin: 40px;
 }
 
@@ -167,6 +169,7 @@ main {
 
 .social-media {
   margin-bottom: 20px;
+  text-align: start;
 }
 
 .social-media a {
